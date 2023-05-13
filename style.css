@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Archivo Black', sans-serif;
 }
 body {
   background-color: rgb(158, 158, 158);
@@ -22,7 +22,7 @@ body {
 }
 
 #text {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Archivo Black', sans-serif;
   font-size: 48px;
   margin-top: 20px;
   overflow: hidden;
@@ -40,7 +40,7 @@ body {
   margin-right: 10px;
   color: #000000;
   text-decoration: none;
-  font-family: Arial, sans-serif;
+  font-family: 'Archivo Black', sans-serif;
   font-size: 18px;
 }
 /* 下の3つのそれ用 */
