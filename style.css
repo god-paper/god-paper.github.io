@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'Ubuntu', sans-serif;
+}
+body {
+  background-color: rgb(158, 158, 158);
+}
+
+#container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo {
+  width: 100px;
+  height: 100px;
+  background-image: url('logo.png');
+  background-size: cover;
+}
+
+#text {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 48px;
+  margin-top: 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: center; /* 追加 */
+}
+
+
+#menu {
+  margin-top: 20px;
+}
+
+#menu a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #000000;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+/* 下の3つのそれ用 */
+.link-3 {
+  color: #ffffff; /* 通常時の文字色 */
+  text-decoration: none; /* 下線を消す */
+  }
+  .link-3:hover {
+    color: #f9ffa4; /* マウスオーバー時の文字色 */
+    }
+    /* 文字がふわっと浮き上がるアニメーション */
+.float-up {
+    opacity: 0;
+    transform: translateY(20px);
+    animation-name: float-up;
+    animation: floatUp 1.0s ease-out forwards;
+  }
