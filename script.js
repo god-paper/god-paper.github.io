@@ -1,4 +1,4 @@
-const text = "got-paper.github.io";
+const text = "got-paper.wjg.jp";
 let index = 0;
 
 function typeText() {
